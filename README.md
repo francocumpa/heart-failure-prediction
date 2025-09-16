@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este proyecto es una aplicación web para predecir la probabilidad de insuficiencia cardíaca en un paciente basándose en una serie de atributos médicos. La aplicación cuenta con un backend de Machine Learning que expone una API y un frontend interactivo para realizar las predicciones.
+Este proyecto es una aplicación web para predecir enfermedades cardíacas en un paciente basándose en una serie de atributos médicos. La aplicación cuenta con un backend de Machine Learning que expone una API y un frontend interactivo para realizar las predicciones.
 
 ## Demo en Vivo (Hugging Face Spaces 🤗)
 
