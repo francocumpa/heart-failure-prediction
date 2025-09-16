@@ -19,11 +19,11 @@ Puedes probar la aplicación directamente en el siguiente enlace:
 ## Estructura del Proyecto
 
 ```
-├── Dockerfile                # Define el entorno para ejecutar el backend
 ├── notebooks/
-│   └── analysis.ipynb        # Análisis exploratorio de datos
+│   └── analysis.ipynb        # Entrenamiento y evaluacion del modelo
 └── src/
     ├── backend/              # Lógica del modelo y la API
+    |   ├── Dockerfile        # Define el entorno para ejecutar el backend
     │   ├── api.py            # Endpoint de la API (FastAPI)
     │   ├── model.py          # Carga del modelo y lógica de predicción
     │   ├── requirements.txt  # Dependencias del backend
@@ -40,12 +40,17 @@ Existen dos formas de ejecutar este proyecto: utilizando Docker (recomendado) o 
 
 Esta opción ejecuta el backend en un contenedor Docker.
 
-1.  **Construir la imagen de Docker:**
+1.  **Cambiamos de directorio al backend:**
+    ```bash
+    cd src/backend
+    ```
+
+2.  **Construir la imagen de Docker:**
     ```bash
     docker build -t heart-failure-predictor .
     ```
 
-2.  **Ejecutar el contenedor:**
+3.  **Ejecutar el contenedor:**
     ```bash
     docker run -p 8000:8000 heart-failure-predictor
     ```
