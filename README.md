@@ -8,7 +8,7 @@ Este proyecto es una aplicación web para predecir enfermedades cardíacas en un
 
 Puedes probar la aplicación directamente en el siguiente enlace:
 
-[Probar la demo en vivo](https://franco3030-heart-failure-prediction.hf.space/?__theme=system&deep_link=ipxpizTHR54)
+[Probar la demo en vivo](https://franco3030-heart-failure-prediction.hf.space)
 
 ## Tecnologías Utilizadas
 
