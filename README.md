@@ -83,3 +83,33 @@ Esta opción ejecuta el backend en un contenedor Docker.
     ```
     La interfaz de Gradio se abrirá en tu navegador.
 
+# Monitoreo y Versionado de Modelos
+
+## 1. Monitoreo
+El monitoreo debe realizarse en tres niveles:
+
+1. **Modelo de Machine Learning**  
+   - Seguimiento del rendimiento.  
+   - Control de métricas y posibles sesgos.  
+
+2. **Infraestructura**  
+   - Estado de los servicios.  
+   - Consumo de recursos y disponibilidad.  
+
+3. **Valor para el negocio**  
+   - Evaluar si los resultados generan impacto real.  
+   - Usar los hallazgos para tomar decisiones estratégicas.  
+
+## 2. Versionado
+Para un control eficiente de versiones de modelos se recomienda utilizar herramientas de MLOps como:
+
+- **MLflow**  
+- **Databricks**  
+- Otros sistemas de gestión de experimentos  
+
+Estas plataformas permiten:  
+- Registrar cada versión del modelo.  
+- Comparar métricas entre iteraciones.  
+- Reproducir experimentos y despliegues de manera confiable.
+
+
